@@ -1,4 +1,4 @@
-#Rewrite of GSEA code for SAPS package
+#Rewrite of cmap score for publication
 #NWK
 #2/7/13
 library(sqldf)
@@ -41,5 +41,3 @@ saps.gsea <- function(rank.matrix,up.genes,down.genes){
  
 }
 
-ks.test(rank.matrix[])
-ks.test
